@@ -844,9 +844,21 @@
       <div id="upload" class="tab-content">
         <div class="card">
           <div class="card-title">
-            <i class="fas fa-file-csv"></i> Upload CSV File
+            <i class="fas fa-file-csv"></i> Download Sample & Upload CSV
           </div>
           <div id="uploadMessage"></div>
+          <div style="margin-bottom: 24px; padding: 16px; background: rgba(99, 102, 241, 0.1); border: 1px solid rgba(99, 102, 241, 0.3); border-radius: 10px;">
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
+              <i class="fas fa-info-circle" style="color: var(--primary-light); font-size: 18px;"></i>
+              <span style="font-weight: 600; color: var(--text);">Quick Start</span>
+            </div>
+            <p style="font-size: 13px; color: var(--text-secondary); margin-bottom: 12px;">
+              Get started by downloading the sample interview data CSV file, then upload it to populate the system.
+            </p>
+            <button class="btn btn-secondary" onclick="downloadSampleCSV()">
+              <i class="fas fa-download"></i> Download Sample CSV
+            </button>
+          </div>
           <div class="upload-area" onclick="document.getElementById('fileInput').click();" ondrop="handleDrop(event)" ondragover="handleDragOver(event)" ondragleave="handleDragLeave()">
             <div class="upload-icon">
               <i class="fas fa-cloud-upload-alt"></i>

@@ -31,42 +31,46 @@ Open: **http://localhost:3000**
 3. Add columns:
    - Company, Interviewer, Candidate, Candidate Email
    - Round Number, Calendly Link
-   - Email Status (Select: pending/sent)
+   - Email Status (Select: Pending/Sent)
    - Email Sent At, TAT Minutes
 
 4. Copy your Base ID from URL
 
 ## Step 4: Configure App (1 minute)
 
-In app, go to **Configure Airtable** tab:
+In app, go to **Configure** tab:
 - Airtable Token
 - Base ID
 - MailerSend Key
 - From Email
 
-Click **Save & Test Connection**
+Click **Save Configuration** then **Test Connection**
 
-## Step 5: Upload CSV
+## Step 5: Download & Upload CSV ⭐
 
-1. Go to **Upload CSV** tab
-2. Select your CSV file
-3. Click **Upload & Split**
+1. Go to **Upload** tab
+2. Click **Download Sample CSV** button
+3. You'll get `FO_Coding_Assignment.csv` (150+ interview records)
+4. Upload the CSV back to the website by:
+   - Dragging & dropping the file, OR
+   - Clicking the upload area to browse
+5. Click **Upload & Split**
 
-Data automatically splits by interview rounds!
+✨ Data automatically splits by interview rounds!
 
 ## Step 6: Send Emails
 
-1. Go to **Send Emails** tab
-2. Click **Select All**
-3. Click **Send**
+1. Go to **Emails** tab
+2. Click **Select All** to select all pending emails
+3. Click **Send Selected**
 
 Each candidate gets their Calendly link!
 
-## Step 7: Check Results
+## Step 7: View Results
 
-- **View Data**: See status and TAT
-- **Email Logs**: Complete history
-- **Airtable**: Data in real-time
+- **Data Tab**: See all records, status, and TAT
+- **Logs Tab**: Complete email history
+- **Airtable**: Data syncs in real-time
 
 ---
 
@@ -77,6 +81,24 @@ Company,Interviewer,Interviewer Email,Candidate,Candidate Email,Scheduling metho
 Amazon,Jeff,jeff@amazon.com,Rahul,rahul@email.com,"Round1: link1
 Round2: link2",04 Nov
 ```
+
+The system automatically:
+- ✅ Splits multiple rounds into separate records
+- ✅ Calculates TAT (Turn Around Time)
+- ✅ Sets email status to "Pending"
+- ✅ Prepares emails ready to send
+
+---
+
+## 🎯 Sample Data
+
+A pre-built CSV file with 150+ interview records is included:
+- **File**: `FO_Coding_Assignment.csv`
+- **Records**: Real interview scheduling data
+- **Companies**: Amazon, Google, Tesla, Flipkart, Open AI
+- **Rounds**: 1-3 rounds per candidate
+
+Download it from the **Upload** tab to get started instantly!
 
 Multiple rounds → Multiple rows automatically!
 

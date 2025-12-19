@@ -11,6 +11,16 @@ let config = {
 // Airtable API Base URL
 const AIRTABLE_API = 'https://api.airtable.com/v0';
 
+// Download Sample CSV
+function downloadSampleCSV() {
+  const link = document.createElement('a');
+  link.href = '/FO_Coding_Assignment.csv';
+  link.download = 'FO_Coding_Assignment.csv';
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+
 // Tab switching
 function switchTab(tabName) {
   document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
