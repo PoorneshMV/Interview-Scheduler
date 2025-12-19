@@ -1,0 +1,18 @@
+{
+  "name": "weekday-interview-scheduler",
+  "version": "2.0.0",
+  "description": "Beautiful automated interview scheduling with Airtable integration",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "build": "echo 'No build needed'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {}
+}
