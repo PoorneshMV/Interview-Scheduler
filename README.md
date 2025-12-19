@@ -340,8 +340,32 @@ MIT License - Use freely in personal and commercial projects
 
 ---
 
+## � Deploy to Production (24/7 Live)
+
+Make your app live on the internet with **free hosting**:
+
+### Quickest Deployment: Vercel ⚡
+
+```bash
+# Already set up! Just go to:
+# https://vercel.com/new
+# Import your GitHub repo
+# Click Deploy ✨
+```
+
+**Your live URL**: `https://interview-scheduler-[your-name].vercel.app`
+
+### Other Options:
+- **Render**: https://render.com (free tier with auto-sleep)
+- **Railway**: https://railway.app (free $5 monthly credit)
+
+📚 **[See Full Deployment Guide →](./DEPLOYMENT.md)**
+
+---
+
 ## 🎉 Ready to Get Started?
 
+### Local Development:
 1. `npm install`
 2. `npm start`
 3. Open http://localhost:3000
@@ -349,7 +373,14 @@ MIT License - Use freely in personal and commercial projects
 5. Upload your CSV
 6. Send emails!
 
-**That's it!** You now have a beautiful, automated interview scheduling system. 🚀
+### Go Live:
+1. Push to GitHub (already done ✅)
+2. Go to https://vercel.com/new
+3. Import `Interview-Scheduler` repo
+4. Click Deploy
+5. Share your live URL! 🚀
+
+**That's it!** You now have a beautiful, automated interview scheduling system running 24/7. 
 
 ---
 
